@@ -3,14 +3,14 @@
 
   <div class="border-left">
     <%= @question %>
-    <p class="font-italic"> - You </p>
+    <p class="fst-italic"> - You </p>
   </div>
 
-  <div class="border-left background-answer">
+  <div class="border-left bg-warning">
     <%= @answer %>
-    <p class="font-italic"> - Your coach </p>
+    <p class="fst-italic"> - Your coach </p>
   </div>
 
-  <%= link_to "Ask a new question", ask_path %>
+  <%= link_to "Ask a new question", ask_path, class:"text-decoration-none btn" %>
 
 </div>
